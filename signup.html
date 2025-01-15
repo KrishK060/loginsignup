@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & signup</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="loginpage">
+        <div class="inputs">
+            <a href="./login.html" class="btn" id="Signin"><i class="fa-solid fa-user" style="margin: 0 5px;"></i>Login</a>
+            <a href="#"  class="btn" id="signup" ><i class="fa-solid fa-user-plus" style="margin: 0 5px;"></i>Signup</a>
+        </div>
+        <form action="#" class="input-form">
+            <div class="userinputs">
+                <i class="fa-regular fa-envelope" style="margin: 0 5px;"></i><input type="email" class="usr" id="usr" placeholder="email" >
+            </div>
+            <div class="userinputs">
+                <i class="fa-solid fa-user" style="margin: 0 5px;"></i><input type="text" class="usr" id="usr" placeholder="username">
+            </div>
+            <div class="userinputs">
+                <i class="fa-solid fa-lock" style="margin: 0 5px;"></i><input type="password" class="psw" id="psw" placeholder="password">
+            </div>
+            <div class="userinputs">
+                <i class="fa-solid fa-lock" style="margin: 0 5px;"></i> <input type="password" class="psw" id="psw" placeholder="confirm password">
+            </div>
+            <div class="userinputs">
+                <i class="fa-solid fa-calendar-days" style="margin: 0 5px;"></i><input type="date" class="usr" id="birthday" name="birthday" placeholder="DOB"> 
+            </div>
+            <div class="userinputs">
+                <i class="fa-solid fa-phone" style="margin: 0 5px;"></i><input type="number" class="usr" id="usr"  pattern="[0-9]{10}" placeholder="phone number">
+            </div>
+            <div class="userinputs">
+            <label for="image" class="header">Profile Photo:</label>
+                
+            <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture style="display: none; border-radius: 50%;">
+            </div>
+
+            <div class="rem">
+                <input type="checkbox" class="check" id="check" name="">
+                <label for="check">Accept terms and conditions</label>
+            </div>
+
+            <div class="inputs">
+                <input type="button" class="btn1" id="signin" value="Signup">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
