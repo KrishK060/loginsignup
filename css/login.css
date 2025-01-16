@@ -16,6 +16,9 @@ body{
 #signin:hover{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.marq{
+    margin-bottom: 50px;
+}
 
 
 
@@ -27,8 +30,8 @@ body{
     background-color: rgb(107, 156, 156);
     height: 500px;
     width: 500px;
-    margin:auto;
-    padding: 100px;
+    /* margin:auto; */
+    padding: 80px;
     border: 5px solid black;
     box-shadow: 10px 10px 5px rgba(63, 83, 177, 0.863);
 }
@@ -63,10 +66,34 @@ body{
     transition: width 10s;
     width: 250px;
 }
-
 #signin{
+    position:relative;
+    animation-duration:4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-name: example1;
+}
+@keyframes example1 {
+    0%{left:0px ; top:0px}
+    25%{left:-20px;top:0px}
+    50%{left:-40px;top:0px}
+    100%{left:0px;top:0px}    
+}
+#signup{
     color: white;
+    position: relative;
     background-color: darkcyan;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%{left:0px ; top:0px}
+    25%{left:20px;top:0px}
+    50%{left:40px;top:0px}
+    100%{left:0px;top:0px}    
 }
 
 .userinputs{
