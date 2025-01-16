@@ -1,8 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin:0 0;
     background-color: whitesmoke;
 }
 
@@ -96,4 +101,12 @@ body{
 .btn1{
     width:100%;
     height:50px;
+}
+
+@media (max-width:465px){
+   .loginpage{
+    padding: 10px;
+    margin:0px;
+    height:100vh;
+   }
 }
