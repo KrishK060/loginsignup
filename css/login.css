@@ -9,7 +9,7 @@ body{
     height: 100vh;
     margin:0 0;
     background-color: whitesmoke;
-    background-image: linear-gradient(to right, rgba(182, 241, 241, 0),rgba(136, 207, 204, 0.795), rgba(0, 255, 213, 0.911));
+    background-image: linear-gradient(to right, #00F260,#0575E6);
     
 
 }
@@ -67,6 +67,7 @@ body{
     width: 250px;
 }
 #signin{
+    background-color: dark;
     position:relative;
     animation-duration:4s;
     animation-timing-function: ease-in-out;
