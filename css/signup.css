@@ -5,6 +5,7 @@ body{
     height: 100vh;
     background-color: whitesmoke;
     margin: 0;
+    background-image: linear-gradient(to right, rgba(182, 241, 241, 0),rgba(136, 207, 204, 0.795), rgba(0, 255, 213, 0.911));
 }
 
 .loginpage{
@@ -15,8 +16,9 @@ body{
     background-color: rgb(107, 156, 156);
     height: 500px;
     width: 500px;
-    margin:auto;
-    padding: 100px;
+    /* margin:auto;
+    padding: 100px; */
+    border: 5px solid black;
 }
 
 .inputs{
@@ -42,6 +44,10 @@ body{
     border-radius: 5px;
     text-align: center;
   
+}
+#Signin:hover{
+    transition: width 10s;
+    width: 250px;
 }
 
 #signup{
@@ -97,5 +103,10 @@ body{
 .btn1{
     width:100%;
     height:50px;
+}
+.btn1:hover{
+    transition: width 2s, height 4s;
+    width: 100px;
+    height: 50px;
 }
 
